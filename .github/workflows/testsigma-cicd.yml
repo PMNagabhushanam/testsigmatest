@@ -14,6 +14,5 @@ jobs:
       
       - name: Run Testsigma automation scripts
         run: |
-          cd ${{ github.workspace }}
-          chmod a+x testsmoke.sh
-          ./testsmoke.sh
+          chmod a+x testsigmatest.sh
+          ./testsigmatest.sh
