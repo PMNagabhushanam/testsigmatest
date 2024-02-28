@@ -1,0 +1,19 @@
+name: GitHub Actions Demo
+on:
+  push:
+    branches:
+      - 'main'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Run a one-line script
+        run: echo Hello,World !
+      
+      - name: Run Testsigma automation scripts
+        run: |
+          cd ${{ github.workspace }}
+          chmod a+x testsmoke.sh
+          ./testsmoke.sh
