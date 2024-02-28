@@ -24,7 +24,7 @@ TESTSIGMA_API_KEY=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1YzRjZWU2Mi1hZTkzLTRlMzQtYjg2N
 MAX_WAIT_TIME_FOR_SCRIPT_TO_EXIT=60
 JUNIT_REPORT_FILE_PATH=./junit-report-$(date +"%Y%m%d%H%M").xml
 BUILD_NO=$(date +"%Y%m%d%H%M")
-TESTSIGMA_TEST_PLAN_ID=4379
+TESTSIGMA_TEST_PLAN_ID=4725
 #********END USER_INPUTS***********
  
 #********GLOBAL variables**********
