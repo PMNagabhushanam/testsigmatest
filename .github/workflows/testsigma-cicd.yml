@@ -16,6 +16,7 @@ jobs:
         run: |
           chmod a+x testsigmatest.sh
           ./testsigmatest.sh
+      - name: Run Testsigma automation scripts2
+        run: |
            chmod a+x shellnew.sh
            ./shellnew.sh
-
