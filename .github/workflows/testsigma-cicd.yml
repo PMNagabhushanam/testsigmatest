@@ -11,7 +11,6 @@ jobs:
       
       - name: Run a one-line script
         run: echo Hello,World !
-
       - name: Run Testsigma automation scripts2
         run: |
            chmod a+x shellnew.sh
